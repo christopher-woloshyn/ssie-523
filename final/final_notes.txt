@@ -1,0 +1,25 @@
+Final project notes.
+
+Problem B: Memes
+
+Q1: ABM and a network!
+
+Q2: - Amount of Spread (popularity)
+    - Creation of new memes (agents)
+    - The spread of the newly created Memes
+    - competition among all existing memes
+
+Parameters:
+  - popularity (finite)
+  - living status (if dead then it doesn't reproduce)
+  - offspring status (function of popularity)
+
+
+Q3: Meme popularity is a float value that can range
+between 0 and 1
+
+pop = randint(1, 1001):
+
+pop = 0
+for i in range(n): # number of initial memes
+    pop = randint(1, 1001 - pop)
